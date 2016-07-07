@@ -14,6 +14,7 @@
 		FF5D96B61D288378006149A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5D96B41D288378006149A0 /* LaunchScreen.storyboard */; };
 		FF5D96C11D288378006149A0 /* pitch_perfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D96C01D288378006149A0 /* pitch_perfectTests.swift */; };
 		FF5D96CC1D288378006149A0 /* pitch_perfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D96CB1D288378006149A0 /* pitch_perfectUITests.swift */; };
+		FF5D96DA1D2E33D8006149A0 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D96D91D2E33D8006149A0 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FF5D96C71D288378006149A0 /* pitch perfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pitch perfectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5D96CB1D288378006149A0 /* pitch_perfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pitch_perfectUITests.swift; sourceTree = "<group>"; };
 		FF5D96CD1D288378006149A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5D96D91D2E33D8006149A0 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				FF5D96AB1D288378006149A0 /* AppDelegate.swift */,
 				FF5D96AD1D288378006149A0 /* RecordSoundsViewController.swift */,
 				FF5D96AF1D288378006149A0 /* Main.storyboard */,
+				FF5D96D91D2E33D8006149A0 /* PlaySoundsViewController.swift */,
 				FF5D96B21D288378006149A0 /* Assets.xcassets */,
 				FF5D96B41D288378006149A0 /* LaunchScreen.storyboard */,
 				FF5D96B71D288378006149A0 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF5D96AE1D288378006149A0 /* RecordSoundsViewController.swift in Sources */,
+				FF5D96DA1D2E33D8006149A0 /* PlaySoundsViewController.swift in Sources */,
 				FF5D96AC1D288378006149A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
